@@ -1,0 +1,410 @@
+@import url('reset.css');
+
+body{
+    background-image: url('../picture/BG.jpg');
+    background-color: rgb(168, 168, 0);
+    background-blend-mode:hard-light;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*---------------Top-------------------*/
+header{
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.700);
+    position: fixed;
+    /* 用fixed不會占空間 */
+    z-index: 100;
+}
+.top{
+    width: 100%;
+    height: 125px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top img{
+    height: 100px;
+    margin-top: 10px;
+}
+
+.top li{
+    float: left;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+.top li a:hover{
+    color: #B39300;
+}
+
+.block img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+
+/* ----------------關於阿雪-------------- */
+main{
+    margin: 0 auto;
+}
+.story{
+    margin: 150px auto;
+    width: 1200px;
+}
+.story ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.story li h1{
+    text-align: center;
+    font-size: 64px;
+    writing-mode: vertical-rl;
+}
+
+.story li p{
+    font-size: 32px;
+    margin: 0 170px;
+    line-height: 2;
+    letter-spacing: 15px;
+    height: 552px; 
+    writing-mode: vertical-rl;
+}
+.story li img{
+    display: block;
+    width:500px; 
+    height:500px; 
+    border-radius:50%;
+    filter: brightness(80%) sepia(40%);
+}
+/* ----------------美食介紹-------------- */
+.food{
+    margin: 0 auto 300px;
+    width: 100%;
+    height: 100%; 
+    
+}
+.food ul{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.food ul li{
+    margin-bottom: 300px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 50px;
+}
+.food img{
+    margin: 100px 0px 100px;
+}
+.food p{
+    margin: 0px 30px 100px;
+}
+.food .fir{
+    background-repeat: no-repeat;
+    background-image: url('../picture/soup big.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.f1{
+    display: block;
+    background-color: rgba(245, 147, 0, 0.53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food .sec {
+    background-repeat: no-repeat;
+    background-image: url('../picture/thick\ soup\ big-noodle.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.f2{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(103, 68, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food .thr {
+    background-repeat: no-repeat;
+    background-image: url('../picture/hot big.png');
+    background-size: cover;
+    background-position: center center;
+}
+.f3{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(245, 147, 0, 0.53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food .fou {
+    background-image: url('../picture/dish big.png');
+    background-size: cover;
+    background-position: center center;
+}
+.f4{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(103, 68, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food .fit {
+    background-repeat: no-repeat;
+    background-image: url('../picture/dry big.jpg');
+    background-size: cover;
+    background-position: bottom center;
+}
+.f5{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(245, 147, 0, 0.53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------news------------- */
+.news{
+    margin: 300px auto;
+    width: 100%;
+}
+.news h1{
+    writing-mode: vertical-rl;
+    font-size: 64px;
+    background-color: rgba(245, 147, 0, 1);
+    width: 45px;
+    height: 260px;
+    position: relative;
+}
+.news h1 span{
+    position: absolute;
+    top: -1px;
+    left: -60px;
+}
+.news ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.news a{
+    color: black;
+    display: flex;
+}
+/* -----news1------- */
+.news1 img{
+    width: 390px;
+    height: 328px;
+    display: block;
+    margin-bottom: 10px;
+}
+.date1{
+    position: relative;
+}
+.date1 .my{
+    font-size: 16px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #c27e01;
+}
+.date1 .d{
+    position: absolute;
+    font-size: 64px;
+    top: 5px;
+    left: 0;
+    color: #c27e01;
+}
+.news1 p{
+    float: right;
+    width: 245px;
+}
+/* -----news2------- */
+.news2 img{
+    display: block;
+    margin-bottom: 10px;
+}
+.date2{
+    position: relative;
+}
+.date2 .my{
+    font-size: 16px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #c27e01;
+}
+.date2 .d{
+    position: absolute;
+    font-size: 64px;
+    top: 5px;
+    left: 0;
+    color: #c27e01;
+}
+.news2 p{
+    width: 50px;
+    float: right;
+    width: 245px;
+}
+/* -----news3------- */
+.news3 img{
+    display: block;
+    margin-bottom: 10px;
+}
+.date3{
+    position: relative;
+}
+.date3 .my{
+    font-size: 16px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #c27e01;
+}
+.date3 .d{
+    position: absolute;
+    font-size: 64px;
+    top: 5px;
+    left: 0;
+    color: #c27e01;
+}
+.news3 p{
+    width: 50px;
+    float: right;
+    width: 245px;
+}
+/* ----------------vedio--------------- */
+.vedio{
+    margin: 0 auto;
+    width: 1620px;
+    display: flex;
+    margin-bottom: 300px;
+}
+.vedio h1{
+    writing-mode: vertical-rl;
+    font-size: 64px;
+    background-color: rgba(245, 147, 0, 1);
+    width: 45px;
+    height: 260px;
+    position: relative;
+}
+.vedio h1 span{
+    position: absolute;
+    top: -1px;
+    left: -60px;
+}
+.vedio iframe{
+    margin: 0 auto;
+}
+/* ----------------map--------------- */
+.map{
+    width: 100%;
+    margin-bottom: 300px;
+}
+.info h1{
+    writing-mode: vertical-rl;
+    font-size: 64px;
+    background-color: rgba(245, 147, 0, 1);
+    width: 45px;
+    height: 260px;
+    position: relative;
+}
+.info h1 span{
+    position: absolute;
+    top: -1px;
+    left: -60px;
+}
+.map iframe{
+    margin: 0 auto;
+    padding-left: 30px;
+}
+.map .info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sign{
+    background-color: #fff;
+}
+.sign img {
+    width: 550px;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.sign li{
+    font-size: 24px;
+    padding:0 25px 0 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* ----------------footer-------------- */
+footer{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: #583F00;
+    color: #fff;
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer img{
+    display: block;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.footer p{
+    display: block;
+    text-align: right;
+    color: white;
+    margin-bottom: 100px;
+}
+
+
+

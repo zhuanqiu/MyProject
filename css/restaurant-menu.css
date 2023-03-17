@@ -1,0 +1,314 @@
+@import url('reset.css');
+
+body{
+    background-image: url('../picture/BG.jpg');
+    background-color: rgb(168, 168, 0);
+    background-blend-mode:hard-light;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*---------------Top-------------------*/
+header{
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.700);
+    position: fixed;
+    /* 用fixed不會占空間 */
+    z-index: 100;
+}
+.top{
+    width: 100%;
+    height: 125px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top img{
+    height: 100px;
+    margin-top: 10px;
+}
+
+.top li{
+    float: left;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+.top li a:hover{
+    color: #B39300;
+}
+
+.block img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+/* ----------------標籤-------------- */
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-label h1{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    font-size: 64px;
+    width: 260px;
+    padding-top: 50px;
+}
+.label{
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+}
+.label ul{
+    width: 400px;
+    display: flex;
+    justify-content: end;
+}
+.label li{
+    font-size: 32px;
+    padding-left: 10px;
+}
+.label li a{
+    color: black;
+}
+
+.label li:nth-child(2)::before{
+    content: '/  ';
+    font-size: 32px;
+}
+/* -----------------美食標題----------------- */
+
+.food-label{
+    width: 100%;
+}
+.food-label ul{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.soup-label img{
+    border-radius: 50%;
+}
+.thick-soup-label img{
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+}
+.hot-label img{
+    border-radius: 50%;
+}
+.dish-label img{
+    border-radius: 50%;
+}
+.dry-label img{
+    border-radius: 50%;
+}
+.soup-sub {
+    font-size: 40px;
+    padding-left: 300px;
+    color: rgb(255, 3, 3, 1);
+}
+
+.soup-sub ::before {
+    content: '~~~~~~~~~~~ ';
+}
+.soup-sub ::after {
+    content: ' ~~~~~~~~~~~';
+}
+/* .thick-soup-sub ::before {
+    content: '~~~~~~~~~~~ ';
+}
+.thick-soup-sub ::after {
+    content: ' ~~~~~~~~~~~';
+} */
+/* .hot-sub ::before {
+    content: '~~~~~~~~~~~ ';
+}
+.hot-sub ::after {
+    content: ' ~~~~~~~~~~~';
+} */
+/* .dish-sub ::before {
+    content: '~~~~~~~~~~~ ';
+}
+.dish-sub ::after {
+    content: ' ~~~~~~~~~~~';
+} */
+/* .dry-sub ::before {
+    content: '~~~~~~~~~~~ ';
+}
+.dry-sub ::after {
+    content: ' ~~~~~~~~~~~';
+} */
+
+/* 湯
+.soup1{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.soup1 ul{
+    padding-left: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.soup1 h1{
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+.soup1 p{
+    padding-bottom: 90px;
+}
+.soup1 li:nth-child(3){
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    align-self: flex-end;
+}
+.soup2{
+    display: flex;
+    margin-bottom: 100px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+}
+.soup2 img{
+    padding-left: 60px;
+}
+.soup2 ul{
+    padding-left: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.soup2 h1{
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+.soup2 p{
+    padding-bottom: 90px;
+}
+.soup2 li:nth-child(3){
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    align-self: flex-end;
+} */
+.thick-soup1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.thick-soup1 ul{
+    padding-left: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.thick-soup1 h1{
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+.thick-soup1 p{
+    padding-bottom: 90px;
+}
+.thick-soup1 li:nth-child(3){
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    align-self: flex-end;
+}
+.thick-soup2{
+    display: flex;
+    margin-bottom: 100px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+}
+.thick-soup2 img{
+    padding-left: 40px;
+}
+.thick-soup2 ul{
+    padding-left: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.thick-soup2 h1{
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+.thick-soup2 p{
+    padding-bottom: 90px;
+}
+.thick-soup2 li:nth-child(3){
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    align-self: flex-end;
+}
+
+
+/* ----------------logo背景-------------- */
+.logo {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+  }
+  
+
+  
+
+/* ----------------footer-------------- */
+footer{
+    margin: 0 auto;
+    width: 100%;
+    height: 360px;
+    background-color: #583F00;
+    color: #fff;
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer img{
+    display: block;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.footer p{
+    display: block;
+    text-align: right;
+    color: white;
+    margin-bottom: 1rem;
+}
+
