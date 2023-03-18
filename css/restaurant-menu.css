@@ -64,6 +64,8 @@ header{
 main{
     width: 1200px;
     margin: 0 auto;
+    padding-bottom: 300px;
+    position: relative;
 }
 .main-label h1{
     /* border: 1px solid red; */
@@ -273,10 +275,9 @@ main{
 
 /* ----------------logo背景-------------- */
 .logo {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    width: 0px;
+    position: absolute;
+    bottom: -45px;
+    left: 1450px;
   }
   
 
