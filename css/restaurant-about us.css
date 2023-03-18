@@ -64,7 +64,8 @@ header{
 main{
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 500px;
+    position: relative;
 }
 .main-label h1{
     /* border: 1px solid red; */
@@ -74,7 +75,7 @@ main{
     padding-top: 50px;
 }
 .label{
-    margin: 0 auto;
+    width: 1200px;
     display: flex;
     justify-content: end;
 }
@@ -99,7 +100,6 @@ main{
     padding-top: 50px;
 }
 .gran ul{
-    width: 1200px;
     display: flex;
     align-items: center;
 }
@@ -113,7 +113,6 @@ main{
 }
 
 .anut ul{
-    width: 1200px;
     display: flex;
     align-items: center;
 }
@@ -128,7 +127,6 @@ main{
 }
 
 .counsin ul{
-    width: 1200px;
     display: flex;
     align-items: center;
 }
@@ -141,17 +139,16 @@ main{
     font-size: 30px;
 }
 .logo{
-    width: 400px;
-    height: 400px;
-    padding: 100px 990px;
-    rotate: 20deg;
-}
-.logo img{
+    position: absolute;
+    bottom: 90px;
+    right: -500px;
     opacity: 0.4;
     filter: sepia(60%);
-    max-width: 400px;
-    max-height: 400px;
-    
+    rotate: 30deg;
+}
+.logo img{
+    width: 200px;
+    height: 200px;    
 }
 /* ----------------footer-------------- */
 footer{

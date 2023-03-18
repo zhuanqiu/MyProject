@@ -62,8 +62,10 @@ header{
 
 /* ----------------標籤-------------- */
 main{
-    width: 1500px;
+    width: 1250px;
     margin: 0 auto;
+    position: relative;
+    padding-bottom: 300px;
 }
 .main-label h1{
     /* border: 1px solid red; */
@@ -107,10 +109,11 @@ main{
 }
 .news ul li img:nth-child(1){
     height: 328px;
-    width: 390px;
+    width: 380px;
 }
 .news ul li{
-    width: 500px;
+    margin-right: 10px;
+    width: 380px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -364,22 +367,16 @@ main{
 }
 /* ----------裝飾----------------- */
 .logo{
-    padding: 130px 0;
-    width: 100%;
-    background-position: right;
-    position: relative;
+    position: absolute;
+    bottom:30px;
+    left: 1315px;
 }
 .logo img{
-    position: absolute;
-    top:0;
-    right: 0;
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
     opacity: 0.7;
     rotate: 30deg;
-    filter: saturate(50%);
-    display: block;
-    
+    filter: saturate(50%);    
 }
 /* ----------------footer-------------- */
 footer{

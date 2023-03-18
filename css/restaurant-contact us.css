@@ -62,7 +62,7 @@ header{
 
 /* ----------------標籤-------------- */
 main{
-    width: 1900px;
+    width: 1200px;
     margin: 0 auto;
 }
 .main-label h1{
@@ -183,6 +183,8 @@ em{
 }
 .message-label label{
     font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
 }
 .form-input-message textarea{
     padding-left: 10px;
@@ -196,9 +198,9 @@ em{
     width: 500px;
 }
 button{
-    font-size:20px;
+    font-size:30px;
     width: 500px;
-    height: 35px;
+    height: 50px;
     border-radius: 10px;
     background-color: rgb(255, 0, 0);
 }
