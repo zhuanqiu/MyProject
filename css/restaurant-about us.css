@@ -140,8 +140,8 @@ main{
 }
 .logo{
     position: absolute;
-    bottom: 90px;
-    right: -500px;
+    bottom: 25px;
+    left:1310px;
     opacity: 0.4;
     filter: sepia(60%);
     rotate: 30deg;
