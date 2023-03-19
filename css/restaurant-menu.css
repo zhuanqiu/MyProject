@@ -163,7 +163,7 @@ main{
     content: ' ~~~~~~~~~~~';
 } */
 
-/* 湯
+/* 湯 */
 .soup1{
     display: flex;
     margin-bottom: 100px;
@@ -217,7 +217,8 @@ main{
     font-size: 30px;
     color: rgb(255, 0, 0);
     align-self: flex-end;
-} */
+}
+/* 羹
 .thick-soup1{
     display: flex;
     align-items: center;
@@ -270,7 +271,7 @@ main{
     font-size: 30px;
     color: rgb(255, 0, 0);
     align-self: flex-end;
-}
+} */
 
 
 /* ----------------logo背景-------------- */

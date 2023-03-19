@@ -141,7 +141,7 @@ main{
 .logo{
     position: absolute;
     bottom: 25px;
-    left:1310px;
+    left:1300px;
     opacity: 0.4;
     filter: sepia(60%);
     rotate: 30deg;
