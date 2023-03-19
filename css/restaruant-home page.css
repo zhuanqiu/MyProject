@@ -314,7 +314,7 @@ main{
 /* ----------------vedio--------------- */
 .vedio{
     margin: 0 auto;
-    width: 1620px;
+    width: 1000px;
     display: flex;
     margin-bottom: 300px;
 }
