@@ -114,6 +114,7 @@ main{
     width: 100%;
     height: 100%;
     color: #fff;
+    margin: 200px 0;
 }
 
 .food img{
@@ -137,7 +138,6 @@ main{
     display: block;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     
 }
@@ -156,6 +156,9 @@ main{
     background-size: cover;
     background-position: center center;
 }
+.sec img{
+    margin: 115px 0px 90px;
+}
 .sec:hover{
     transform: scale(1.05 ,1.1);
     transition: .3s .03s;
@@ -170,9 +173,9 @@ main{
     display: block;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
+
 .thr {
     width: 380px;
     background-repeat: no-repeat;
@@ -181,7 +184,7 @@ main{
     background-position: center center;
 }
 .thr img{
-    margin: 115px 0px 90px;
+    margin: 118px 0px 90px;
 }
 .thr:hover{
     transform: scale(1.05 ,1.1);
@@ -197,7 +200,6 @@ main{
     display: block;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .fou {
@@ -207,7 +209,7 @@ main{
     background-position: center center;
 }
 .fou img{
-    margin: 100px 0px 90px;
+    margin: 120px 0px 90px;
 }
 .fou:hover{
  
@@ -225,7 +227,6 @@ main{
     display: block;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .fit:hover{
@@ -244,7 +245,7 @@ main{
     background-position: bottom center;
 }
 .fit img{
-    margin: 100px 0px 90px;
+    margin: 120px 0px 90px;
 }
 .f5{
     width: 100%;
@@ -252,7 +253,6 @@ main{
     display: block;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 /* ---------------------news------------- */
