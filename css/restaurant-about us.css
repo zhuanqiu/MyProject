@@ -152,14 +152,14 @@ main{
 .logo{
     position: absolute;
     bottom: 25px;
-    left:1300px;
+    left: 1110px;
     opacity: 0.4;
     filter: sepia(60%);
     rotate: 30deg;
 }
 .logo img{
-    width: 200px;
-    height: 200px;    
+    width: 100px;
+    height: 100px;    
 }
 /* ----------------footer-------------- */
 footer{
