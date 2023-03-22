@@ -447,6 +447,10 @@ main{
 .material-symbols-outlined{
     font-size: 16px;
 }
+/* ----------------TO the top-------------- */
+.up{
+    position: fixed;
+}
 /* ----------------footer-------------- */
 footer{
     margin: 0 auto;
