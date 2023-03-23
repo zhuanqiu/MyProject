@@ -9,6 +9,7 @@ body{
     font-family: 'Noto Serif TC', serif;
     font-size: 16px;
     line-height: 1.6;
+    background-attachment: fixed;
 }
 
 a{
@@ -123,66 +124,128 @@ main{
 .soup-label img{
     border-radius: 50%;
 }
+.soup-label img:hover{
+    outline: 2px solid white;
+    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
+}
 .thick-soup-label img{
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
 }
+.thick-soup-label img:hover{
+    outline: 2px solid white;
+    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
+}
 .hot-label img{
     border-radius: 50%;
+}
+.hot-label img:hover{
+    outline: 2px solid white;
+    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
 }
 .dish-label img{
     border-radius: 50%;
 }
+.dish-label img:hover{
+    outline: 2px solid white;
+    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
+}
 .dry-label img{
     border-radius: 50%;
 }
+.dry-label img:hover{
+    outline: 2px solid white;
+    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
+}
 .soup-sub {
     font-size: 40px;
-    padding-left: 300px;
+    margin: 0 500px;
     color: rgb(255, 3, 3, 1);
 }
-
+.soup-sub h1{
+    background-image: url('../picture/label-bgc.png');
+    box-sizing: border-box;
+}
 .soup-sub ::before {
-    content: '~~~~~~~~~~~ ';
+    content:'';
+    display: inline-block;
+    background: url('../picture/white-noodle-soup-pencil.png');
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
 }
-.soup-sub ::after {
-    content: ' ~~~~~~~~~~~';
+/* 
+.thick-soup-sub h1{
+    background-image: url('../picture/label-bgc.png');
+    box-sizing: border-box;
 }
-/* .thick-soup-sub ::before {
-    content: '~~~~~~~~~~~ ';
-}
-.thick-soup-sub ::after {
-    content: ' ~~~~~~~~~~~';
+.thick-soup-sub ::before {
+    content:'';
+    display: inline-block;
+    background: url('../picture/white-noodle-soup-pencil.png');
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
 } */
-/* .hot-sub ::before {
-    content: '~~~~~~~~~~~ ';
+/* 
+.hot-sub h1{
+    background-image: url('../picture/label-bgc.png');
+    box-sizing: border-box;
 }
-.hot-sub ::after {
-    content: ' ~~~~~~~~~~~';
-} */
-/* .dish-sub ::before {
-    content: '~~~~~~~~~~~ ';
+.hot-sub ::before {
+    content:'';
+    display: inline-block;
+    background: url('../picture/white-noodle-soup-pencil.png');
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    */
+/* 
+.dish-sub h1{
+    background-image: url('../picture/label-bgc.png');
+    box-sizing: border-box;
 }
-.dish-sub ::after {
-    content: ' ~~~~~~~~~~~';
-} */
-/* .dry-sub ::before {
-    content: '~~~~~~~~~~~ ';
+.dish-sub ::before {
+    content:'';
+    display: inline-block;
+    background: url('../picture/white-noodle-soup-pencil.png');
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+     */
+/* 
+.dry-sub h1{
+    background-image: url('../picture/label-bgc.png');
+    box-sizing: border-box;
 }
-.dry-sub ::after {
-    content: ' ~~~~~~~~~~~';
-} */
+.dry-sub ::before {
+    content:'';
+    display: inline-block;
+    background: url('../picture/white-noodle-soup-pencil.png');
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+     */
 
 /* 湯 */
 .soup1{
+    margin: 0 240px;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
 }
+.soup1 img{
+    border-radius: 10%;
+}
 .soup1 ul{
-    padding-left: 100px;
+    padding-left: 40px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -201,17 +264,18 @@ main{
     align-self: flex-end;
 }
 .soup2{
+    margin: 0 240px;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     height: 230px;
     justify-content: center;
     align-items: center;
 }
 .soup2 img{
-    padding-left: 60px;
+    border-radius: 10%;
 }
 .soup2 ul{
-    padding-left: 100px;
+    padding-left: 40px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -289,7 +353,7 @@ main{
 .logo {
     position: absolute;
     bottom: -45px;
-    left: 1345px;
+    left: 1030px;
   }
   
 
@@ -299,14 +363,14 @@ main{
 footer{
     margin: 0 auto;
     width: 100%;
-    height: 360px;
+    height: 250px;
     background-color: #583F00;
     color: #fff;
     font-size: 20px;
 }
 .footer{
     width: 100%;
-    padding-top: 100px;
+    padding-top: 65px;
     display: flex;
     align-items: center;
     justify-content: space-around;
