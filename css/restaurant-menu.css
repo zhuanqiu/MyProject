@@ -113,7 +113,7 @@ main{
 .food-label{
     width: 100%;
 }
-.food-label ul{
+.food{
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
@@ -124,115 +124,66 @@ main{
 .soup-label img{
     border-radius: 50%;
 }
+.soup-label h2{
+    color: #6d3c00;
+    font-size: 30px;
+    font-weight: bold;
+}
 .soup-label img:hover{
     outline: 2px solid white;
-    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
+    box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
 }
 .thick-soup-label img{
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
 }
+.thick-soup-label h2{
+    color: #6d3c00;
+    font-size: 30px;
+    font-weight: bold;;
+}
 .thick-soup-label img:hover{
     outline: 2px solid white;
-    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
+    box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
 }
 .hot-label img{
     border-radius: 50%;
 }
+.hot-label h2{
+    color: #6d3c00;
+    font-size: 30px;
+    font-weight: bold;
+}
 .hot-label img:hover{
     outline: 2px solid white;
-    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
+    box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
 }
 .dish-label img{
     border-radius: 50%;
 }
+.dish-label h2{
+    color: #6d3c00;
+    font-size: 30px;
+    font-weight: bold;
+}
 .dish-label img:hover{
     outline: 2px solid white;
-    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
+    box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
 }
 .dry-label img{
     border-radius: 50%;
 }
+.dry-label h2{
+    color: #6d3c00;
+    font-size: 30px;
+    font-weight: bold;
+}
 .dry-label img:hover{
     outline: 2px solid white;
-    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.700);
+    box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
 }
-.soup-sub {
-    font-size: 40px;
-    margin: 0 500px;
-    color: rgb(255, 3, 3, 1);
-}
-.soup-sub h1{
-    background-image: url('../picture/label-bgc.png');
-    box-sizing: border-box;
-}
-.soup-sub ::before {
-    content:'';
-    display: inline-block;
-    background: url('../picture/white-noodle-soup-pencil.png');
-    background-size: cover;
-    width: 70px;
-    height: 50px;
-    margin-right: 10px;
-}
-/* 
-.thick-soup-sub h1{
-    background-image: url('../picture/label-bgc.png');
-    box-sizing: border-box;
-}
-.thick-soup-sub ::before {
-    content:'';
-    display: inline-block;
-    background: url('../picture/white-noodle-soup-pencil.png');
-    background-size: cover;
-    width: 70px;
-    height: 50px;
-    margin-right: 10px;
-} */
-/* 
-.hot-sub h1{
-    background-image: url('../picture/label-bgc.png');
-    box-sizing: border-box;
-}
-.hot-sub ::before {
-    content:'';
-    display: inline-block;
-    background: url('../picture/white-noodle-soup-pencil.png');
-    background-size: cover;
-    width: 70px;
-    height: 50px;
-    margin-right: 10px;
-    */
-/* 
-.dish-sub h1{
-    background-image: url('../picture/label-bgc.png');
-    box-sizing: border-box;
-}
-.dish-sub ::before {
-    content:'';
-    display: inline-block;
-    background: url('../picture/white-noodle-soup-pencil.png');
-    background-size: cover;
-    width: 70px;
-    height: 50px;
-    margin-right: 10px;
-     */
-/* 
-.dry-sub h1{
-    background-image: url('../picture/label-bgc.png');
-    box-sizing: border-box;
-}
-.dry-sub ::before {
-    content:'';
-    display: inline-block;
-    background: url('../picture/white-noodle-soup-pencil.png');
-    background-size: cover;
-    width: 70px;
-    height: 50px;
-    margin-right: 10px;
-     */
-
+/* ------------主頁開始------------------- */
 /* 湯 */
 .soup1{
     margin: 0 240px;
@@ -263,44 +214,16 @@ main{
     color: rgb(255, 0, 0);
     align-self: flex-end;
 }
-.soup2{
+/* 羹 */
+.thick-soup1{
     margin: 0 240px;
     display: flex;
     margin-bottom: 50px;
-    height: 230px;
     justify-content: center;
     align-items: center;
 }
-.soup2 img{
-    border-radius: 10%;
-}
-.soup2 ul{
-    padding-left: 40px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.soup2 h1{
-    padding-top: 200px;
-    padding-bottom: 10px;
-}
-.soup2 p{
-    padding-bottom: 90px;
-}
-.soup2 li:nth-child(3){
-    padding-bottom: 10px;
-    font-size: 30px;
-    color: rgb(255, 0, 0);
-    align-self: flex-end;
-}
-/* 羹
-.thick-soup1{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
 .thick-soup1 ul{
-    padding-left: 100px;
+    padding-left: 40px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -318,36 +241,88 @@ main{
     color: rgb(255, 0, 0);
     align-self: flex-end;
 }
-.thick-soup2{
+/* 炒 */
+.hot1{
+    margin: 0 240px;
     display: flex;
-    margin-bottom: 100px;
-    height: 230px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
 }
-.thick-soup2 img{
+.hot1 ul{
     padding-left: 40px;
-}
-.thick-soup2 ul{
-    padding-left: 100px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
 }
-.thick-soup2 h1{
+.hot1 h1{
     padding-top: 200px;
     padding-bottom: 10px;
 }
-.thick-soup2 p{
+.hot1 p{
     padding-bottom: 90px;
 }
-.thick-soup2 li:nth-child(3){
+.hot1 li:nth-child(3){
     padding-bottom: 10px;
     font-size: 30px;
     color: rgb(255, 0, 0);
     align-self: flex-end;
-} */
+}
 
+/* 小菜 */
+.dish1{
+    margin: 0 240px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.dish1 ul{
+    padding-left: 40px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.dish1 h1{
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+.dish1 p{
+    padding-bottom: 90px;
+}
+.dish1 li:nth-child(3){
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    align-self: flex-end;
+}
+/* 乾 */
+.dry1{
+    margin: 0 240px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.dry1 ul{
+    padding-left: 40px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.dry1 h1{
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+.dry1 p{
+    padding-bottom: 90px;
+}
+.dry1 li:nth-child(3){
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    align-self: flex-end;
+}
 
 /* ----------------logo背景-------------- */
 .logo {
@@ -355,10 +330,6 @@ main{
     bottom: -45px;
     left: 1030px;
   }
-  
-
-  
-
 /* ----------------footer-------------- */
 footer{
     margin: 0 auto;
