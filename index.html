@@ -266,12 +266,33 @@
                 </div>
             <!-- footer End -->
             </footer>
-            <div class="up">
-                <img src="picture/to_top.png" alt="">
-            </div>
+                <button onclick="topFunction()" id="btn" title="Gototop"><img src="picture/to_top.png" style="width: 85px; height: 85px;"></button>
         </div>
         <script>
-            let btn = document.getElementById("btn");
+            window.onscroll = scrollFunction;
+            function scrollFunction() { 
+                if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 200) {
+                    document.getElementById("btn").style.display = "block";
+                } else {
+                    document.getElementById("btn").style.display = "none";
+                }
+            }
+
+            
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0; 
+            }
+            window.addEventListener("scroll", function(){
+                let top_el = document.querySelector('top');
+                if(scroll > 100){
+                    $(".black").css("background" , "blue");
+                }else{
+		            $(".black").css("background" , "#333"); 
+            }
+        })
+
+
         </script>
     </body>
 </html>
