@@ -112,77 +112,33 @@ main{
 
 .food-label{
     width: 100%;
-}
-.food{
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    font-size: 40px;
 }
-.soup-label img{
-    border-radius: 50%;
+button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.000);
 }
-.soup-label h2{
-    color: #6d3c00;
-    font-size: 30px;
-    font-weight: bold;
-}
-.soup-label img:hover{
-    outline: 2px solid white;
-    box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
-}
-.thick-soup-label img{
+button img{
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
 }
-.thick-soup-label h2{
-    color: #6d3c00;
-    font-size: 30px;
-    font-weight: bold;;
-}
-.thick-soup-label img:hover{
-    outline: 2px solid white;
-    box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
-}
-.hot-label img{
-    border-radius: 50%;
-}
-.hot-label h2{
+button h2{
     color: #6d3c00;
     font-size: 30px;
     font-weight: bold;
 }
-.hot-label img:hover{
+button img:hover{
     outline: 2px solid white;
     box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
 }
-.dish-label img{
-    border-radius: 50%;
-}
-.dish-label h2{
-    color: #6d3c00;
-    font-size: 30px;
-    font-weight: bold;
-}
-.dish-label img:hover{
-    outline: 2px solid white;
-    box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
-}
-.dry-label img{
-    border-radius: 50%;
-}
-.dry-label h2{
-    color: #6d3c00;
-    font-size: 30px;
-    font-weight: bold;
-}
-.dry-label img:hover{
-    outline: 2px solid white;
-    box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
-}
+
 /* ------------主頁開始------------------- */
 /* 湯 */
 .soup1{
