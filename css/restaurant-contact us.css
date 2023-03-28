@@ -12,7 +12,7 @@ body{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none; 
     color: white;
 }
 .wrapper{
@@ -75,6 +75,7 @@ header{
 main{
     width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 .main-label h1{
     /* border: 1px solid red; */
@@ -129,14 +130,14 @@ em{
 /* --- 姓名 ---- */
 .name-label{
     padding-bottom: 20px;
-}
+   }
 .name-label label{
     font-size: 20px;
     display: block;
     margin-bottom: 15px;
 }
 .form-input-name input{
-    width: 1114px;
+    width: 300px;
     height: 50px;
     font-size: 20px;
     padding-left: 10px;
@@ -144,6 +145,9 @@ em{
 /* --- 電話 ---- */
 .phone-label{
     padding-bottom: 20px;
+    position: absolute;
+    top: 333px;
+    right: 433px;
 }
 .phone-label label{
     font-size: 20px;
@@ -151,7 +155,7 @@ em{
     margin-bottom: 15px;
 }
 .form-input-phone input{
-    width: 1114px;
+    width: 300px;
     height: 50px;
     font-size: 20px;
     padding-left: 10px;
@@ -159,6 +163,9 @@ em{
 /* --- Email ---- */
 .email-label{
     padding-bottom: 20px;
+    position: absolute;
+    top: 333px;
+    right: 22px;
 }
 .email-label label{
     font-size: 20px;
@@ -166,7 +173,7 @@ em{
     margin-bottom: 15px;
 }
 .form-input-email input{
-    width: 1114px;
+    width: 300px;
     height: 50px;
     font-size: 20px;
     padding-left: 10px;
@@ -213,7 +220,7 @@ button{
     width: 500px;
     height: 50px;
     border-radius: 10px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(154, 82, 0);
 }
 
 /* ----------------footer-------------- */
@@ -221,7 +228,7 @@ footer{
     margin: 0 auto;
     width: 100%;
     height: 250px;
-    background-color: #583F00;
+    background-color: #a17609;
     color: #fff;
     font-size: 20px;
 }
