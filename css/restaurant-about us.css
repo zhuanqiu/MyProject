@@ -9,6 +9,7 @@ body{
     font-family: 'Noto Serif TC', serif;
     font-size: 16px;
     line-height: 1.6;
+    background-attachment: fixed;
 }
 
 a{
@@ -75,7 +76,7 @@ header{
 main{
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 500px;
+    padding-bottom: 200px;
     position: relative;
 }
 .main-label h1{
@@ -111,6 +112,8 @@ main{
     padding-top: 50px;
 }
 .gran ul{
+    margin: 100px auto;
+    width: 900px;
     display: flex;
     align-items: center;
 }
@@ -120,10 +123,18 @@ main{
 }
 .gran li p{
     padding-right: 125px;
-    font-size: 30px;
+    font-size: 24px;
+}
+.gran li img{
+    width: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 10px 0;
 }
 
 .anut ul{
+    margin: 100px auto;
+    width: 900px;
     display: flex;
     align-items: center;
 }
@@ -134,10 +145,17 @@ main{
 }
 .anut li p{
     padding-left: 125px;
-    font-size: 30px;
+    font-size: 24px;
 }
-
+.anut li img{
+    width: 400px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 10px 0;
+}
 .counsin ul{
+    margin: 100px auto;
+    width: 900px;
     display: flex;
     align-items: center;
 }
@@ -147,7 +165,13 @@ main{
 }
 .counsin li p{
     padding-right: 125px;
-    font-size: 30px;
+    font-size: 24px;
+}
+.counsin li img{
+    width: 400px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 10px 0;
 }
 .logo{
     position: absolute;
@@ -161,6 +185,26 @@ main{
     width: 100px;
     height: 100px;    
 }
+#btn {
+    width: 85px;
+    height: 85px;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    opacity:1;
+    cursor: pointer;
+    border: none;
+  }
+#btn img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  #btn:hover {
+    background-color: rgba(120, 120, 120, 0.194);
+  }
 /* ----------------footer-------------- */
 footer{
     margin: 0 auto;

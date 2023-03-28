@@ -48,14 +48,14 @@
                         </p>
                     </li>
                     <li>
-                        <img src="picture/grandma story.png" alt="">
+                        <img src="picture/grandma-story.jpg" alt="">
                     </li>
                 </ul>
             </div>
             <div class="anut">
                 <ul>
                     <li>
-                        <img src="picture/aunt.png" alt="">
+                        <img src="picture/aunt.jpg" alt="">
                     </li>
                     <li>
                         <h2>阿華</h2>
@@ -70,7 +70,7 @@
                         <p>阿雪米粉羹第三代傳人，阿華的兒子，由於跟阿嬤有深厚的祖孫情，非常願意把阿雪米粉羹傳承下去。</p>
                     </li>
                     <li>
-                        <img src="picture/cousin.png" alt="">
+                        <img src="picture/cousin.jpg" alt="">
                     </li>
                 </ul>              
             </div>
@@ -95,6 +95,25 @@
             </div>
         <!-- footer End -->
         </footer>
+        <button onclick="topFunction()" id="btn" title="Gototop"><img src="picture/to_top.png" style="width: 85px; height: 85px;"></button>
     </div>
+    <script>
+        window.onscroll = scrollFunction;
+        function scrollFunction() { 
+            if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 200) {
+                document.getElementById("btn").style.display = "block";
+            } else {
+                document.getElementById("btn").style.display = "none";
+            }
+        }
+
+        
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0; 
+        }
+        
+
+    </script>
 </body>
 </html>
