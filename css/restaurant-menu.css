@@ -155,90 +155,45 @@ button img.active {
 
 /* ------------主頁開始------------------- */
 /* 湯 */
-.soup1{
+.food_label{
+    display: block;
+    color: #003a65;
+    width: 200px;
+    font-size: 40px;  
+    margin: auto 500px ;
+    position: relative;
+    background-image: url('../picture/label-bgc.png');
+    background-position: left bottom -34px;
+}
+.main-food{
     margin: 0 240px;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: -167px;
     justify-content: center;
     align-items: center;
 }
-.soup1 img{
+.main-food img{
     border-radius: 10%;
 }
-.soup1 ul{
+.main-food ul{
     padding-left: 40px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
 }
-.soup1 h1{
+.main-food h1{
     padding-top: 200px;
     padding-bottom: 10px;
 }
-.soup1 p{
+.main-food p{
     padding-bottom: 90px;
 }
-.soup1 li:nth-child(3){
+.main-food li:nth-child(3){
     padding-bottom: 10px;
     font-size: 30px;
     color: rgb(255, 0, 0);
     align-self: flex-end;
 }
-/* 羹 */
-.thick-soup1{
-    margin: 0 240px;
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-}
-.thick-soup1 ul{
-    padding-left: 40px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.thick-soup1 h1{
-    padding-top: 200px;
-    padding-bottom: 10px;
-}
-.thick-soup1 p{
-    padding-bottom: 90px;
-}
-.thick-soup1 li:nth-child(3){
-    padding-bottom: 10px;
-    font-size: 30px;
-    color: rgb(255, 0, 0);
-    align-self: flex-end;
-}
-/* 炒 */
-.hot1{
-    margin: 0 240px;
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-}
-.hot1 ul{
-    padding-left: 40px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.hot1 h1{
-    padding-top: 200px;
-    padding-bottom: 10px;
-}
-.hot1 p{
-    padding-bottom: 90px;
-}
-.hot1 li:nth-child(3){
-    padding-bottom: 10px;
-    font-size: 30px;
-    color: rgb(255, 0, 0);
-    align-self: flex-end;
-}
-
 /* 小菜 */
 .dish1{
     margin: 0 240px;
@@ -266,34 +221,6 @@ button img.active {
     color: rgb(255, 0, 0);
     align-self: flex-end;
 }
-/* 乾 */
-.dry1{
-    margin: 0 240px;
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-}
-.dry1 ul{
-    padding-left: 40px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.dry1 h1{
-    padding-top: 200px;
-    padding-bottom: 10px;
-}
-.dry1 p{
-    padding-bottom: 90px;
-}
-.dry1 li:nth-child(3){
-    padding-bottom: 10px;
-    font-size: 30px;
-    color: rgb(255, 0, 0);
-    align-self: flex-end;
-}
-
 /* ----------------logo背景-------------- */
 .logo {
     position: absolute;
