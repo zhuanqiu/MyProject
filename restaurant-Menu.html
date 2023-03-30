@@ -174,6 +174,20 @@
                         </li>
                     </ul>
                 </div>
+                <div class="main-food">
+                    <img width="400" height="300" src="picture/hot-noodle&white-noodle.png" alt="">
+                    <ul>
+                        <li>
+                            <h1>混合炒油麵米粉</h1>
+                        </li>
+                        <li>
+                            <p>隱藏吃法，滿足同時想吃2種口味的客人。</p>
+                        </li>
+                        <li>
+                            <p>$ 35</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <!-- 小菜 -->
             <div class="food1" id="dish">
@@ -218,13 +232,13 @@
                     乾
                 </label>
                 <div class="main-food">
-                    <img width="350" height="300" src="picture/white-noodle-thick-soup.jpg" alt="">
+                    <img width="350" height="300" src="picture/dry-noodle1.jpg" alt="">
                     <ul>
                         <li>
-                            <h1>米粉羹</h1>
+                            <h1>乾意麵</h1>
                         </li>
                         <li>
-                            <p>阿雪主打的料理，受到老饕的喜愛，米粉泡在清爽的羹湯裡使得米粉不會乾澀。</p>
+                            <p>Q彈的意麵拌下肉燥後，風味十足，再加上自製辣椒醬提味，吃起來更有味道</p>
                         </li>
                         <li>
                             <p>$ 35</p>
@@ -269,6 +283,7 @@
             </div>
             <!-- footer End -->
         </footer>
+        <button onclick="topFunction()" id="btn" title="Gototop"><img src="picture/to_top.png" style="width: 85px; height: 85px;"></button>
     </div>
     <script>
         function openFood(evt, foodName) {
@@ -292,6 +307,21 @@
         }
 
         document.getElementById("defaultOpen").click();
+
+        window.onscroll = scrollFunction;
+            function scrollFunction() { 
+                if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 100) {
+                    document.getElementById("btn").style.display = "block";
+                } else {
+                    document.getElementById("btn").style.display = "none";
+                }
+            }
+
+            
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0; 
+            }
 
 
     </script>

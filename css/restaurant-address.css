@@ -102,7 +102,9 @@ main{
 .label li a{
     color: black;
 }
-
+.label li a:hover{
+    color: rgb(168, 168, 0);
+}
 .label li:nth-child(2)::before{
     content: '/  ';
     font-size: 32px;

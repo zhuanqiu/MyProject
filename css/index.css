@@ -512,6 +512,7 @@ main{
 }
 /* ----------------TO the top-------------- */
 #btn {
+    background-color: #fff;
     width: 85px;
     height: 85px;
     display: none;
