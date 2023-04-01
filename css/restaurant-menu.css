@@ -231,6 +231,10 @@ button img.active {
     flex-direction: column;
     margin-left: 130px;
 }
+.dish1 img:hover{
+    transform: scale(3,3);
+    transition: 1s;
+}
 /* ----------------logo背景-------------- */
 .logo {
     position: absolute;
