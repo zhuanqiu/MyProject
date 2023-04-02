@@ -16,7 +16,8 @@
                     <a href="https://zhuanqiu.github.io/MyProject/">
                         <img src="picture/grandma-logo-top-wb.png" alt="">
                     </a>
-                    <ul>
+                    <div class="menu-icon">Menu</div>
+                    <ul class="menu">
                         <li><a href="https://zhuanqiu.github.io/MyProject/restaurant-News.html">最新消息</a></li>
                         <li><a href="https://zhuanqiu.github.io/MyProject/restaurant-About%20Us.html">關於阿雪</a></li>
                         <li><a href="https://zhuanqiu.github.io/MyProject/restaurant-Menu.html">經典小吃</a></li>
@@ -52,7 +53,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="anut">
+                <div class="aunt">
                     <ul>
                         <li>
                             <img src="picture/aunt.jpg" alt="">
@@ -95,9 +96,17 @@
                 </div>
             <!-- footer End -->
             </footer>
-            <button onclick="topFunction()" id="btn" title="Gototop"><img src="picture/to_top.png" style="width: 85px; height: 85px;"></button>
+            <button onclick="topFunction()" id="btn" title="Gototop"><img src="picture/to_top.png"></button>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
             <script>
+                $(function(){
+                    $('.menu').show();
+                    $('.menu-icon').click(function(){
+                        $('.menu').slideToggle();
+                    })
+                })
+
                 window.onscroll = scrollFunction;
                 function scrollFunction() { 
                     if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 200) {
@@ -115,5 +124,6 @@
                 
 
             </script>
+            
     </body>
 </html>
