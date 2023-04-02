@@ -44,6 +44,7 @@ header{
 }
 .menu-icon{
     /* display: none; */
+    opacity: 0;
 }
 .top li{
     float: left;
@@ -216,6 +217,7 @@ footer{
         max-width: 100%;
     }
     .menu-icon{
+        opacity: 1;
         color: #fff;
         margin-right: 20px;
         margin-top: 20px;
