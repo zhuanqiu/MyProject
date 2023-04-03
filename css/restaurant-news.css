@@ -501,7 +501,7 @@ footer{
     }
     .main-label h1{
         font-size: 30px;
-        margin: auto 144px;
+        margin: auto 109px;
     }
     .label{
         max-width: 100%;
@@ -523,11 +523,143 @@ footer{
         font-size: 12px;
     }
     .news ul{
-        padding-left: 15px;
+        margin: 0 auto;
         margin-bottom: 200px;
     }
     .news ul li{
         border-bottom: 2px solid #a4001b;
+        display: flex;
+        align-items: center;
+    }
+    .news ul li img:nth-child(1){
+        height: 228px;
+        width: 280px;
+    }
+    .date1 .my{
+        position: absolute;
+        top: 0;
+        left: -140px;
+    }
+    .date1 .d{
+        font-size: 40px;
+        position: absolute;
+        top: 5px;
+        left: -140px;
+    }
+    .date2 .my{
+        position: absolute;
+        top: 0;
+        left: -140px;
+    }
+    .date2 .d{
+        font-size: 40px;
+        position: absolute;
+        top: 5px;
+        left: -140px;
+    }
+    .date3 .d{
+        font-size: 40px;
+    }
+    .date4 .my{
+        position: absolute;
+        top: 0;
+        left: -140px;
+    }
+    .date4 .d{
+        font-size: 40px;
+        position: absolute;
+        top: 5px;
+        left: -140px;
+    }
+    .date5 .my{
+        position: absolute;
+        top: 0;
+        left: -140px;
+    }
+    .date5 .d{
+        font-size: 40px;
+        position: absolute;
+        top: 5px;
+        left: -140px;
+    }
+    .date6 .my{
+        position: absolute;
+        top: 0;
+        left: -140px;
+    }
+    .date6 .d{
+        font-size: 40px;
+        position: absolute;
+        top: 5px;
+        left: -140px;
+    }
+    .date7 .my{
+        position: absolute;
+        top: 0;
+        left: -140px;
+    }
+    .date7 .d{
+        font-size: 40px;
+        position: absolute;
+        top: 5px;
+        left: -140px;
+    }
+    .date8 .my{
+        position: absolute;
+        top: 0;
+        left: -140px;
+    }
+    .date8 .d{
+        font-size: 40px;
+        position: absolute;
+        top: 5px;
+        left: -140px;
+    }
+    .date9 .my{
+        position: absolute;
+        top: 0;
+        left: -140px;
+    }
+    .date9 .d{
+        font-size: 40px;
+        position: absolute;
+        top: 5px;
+        left: -140px;
+    }
+    .news1 p{
+        padding-left: 83px;
+        width: 170px;
+    }
+    .news2 p{
+        padding-left: 83px;
+        width: 171px
+    }
+    .news3 p{
+        padding-left: 83px;
+        width: 171px;
+    }
+    .news4 p{
+        padding-left: 83px;
+        width: 171px
+    }
+    .news5 p{
+        padding-left: 83px;
+        width: 171px
+    }
+    .news6 p{
+        padding-left: 83px;
+    }
+    .news7 p{
+        padding-left: 83px;
+        width: 171px
+    }
+    .news8 p{
+        padding-left: 83px;
+        width: 171px
+    }
+    .news9 p{
+        padding-left: 83px;
+        width: 171px
     }
     #btn{
         width: 40px;
@@ -539,8 +671,8 @@ footer{
     }
     .logo{
         position: absolute;
-        top: 4520px;
-        left:338px;
+        top: 3738px;
+        left:303px;
     }
     .logo img{
         width: 65px;
