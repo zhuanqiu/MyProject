@@ -596,7 +596,8 @@ footer{
         height: 5px;
     }
     .block .shift .btn{
-        width: 50px;    
+        width: 50px;  
+        height: 50px;  
         font-size: 24px;
         margin: 135px -17px;
         cursor: pointer;
