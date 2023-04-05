@@ -315,7 +315,7 @@ footer{
     }
     .main-label h1{
         font-size: 30px;
-        margin: auto 144px;
+        margin: auto 120px;
     }
     .label{
         max-width: 100%;
@@ -351,7 +351,7 @@ footer{
         font-size: 20px;
     }
     .name-label{
-        padding-left: 25px;
+        padding-left: 16px;
     }
     .form-input-name input{
         width: 150px;
@@ -361,7 +361,7 @@ footer{
     .phone-label{
         position: absolute;
         top: 230px;
-        left: 225px;
+        left: 205px;
     }
     .phone-label label{
         width: 100px;
@@ -369,7 +369,7 @@ footer{
     }
 
     .email-label{
-       padding-left: 25px;
+       padding-left: 16px;
        position: static;
        font-size: 20px;
     }
@@ -383,25 +383,25 @@ footer{
         height: 25px;
     }
     .form-input-email input{
-        width: 350px;
+        width: 340px;
         font-size: 10px;
         height: 25px;
     }
     .subtitle-label{
         font-size: 20px;
-        padding-left: 25px;
+        padding-left: 16px;
     }
     .message-label{
         font-size: 20px; 
-        padding-left: 25px; 
+        padding-left: 16px;
     }
     .form-input-subtitle input{
-        width: 350px;
+        width: 340px;
         font-size: 10px;
         height: 25px;
     }
     .form-input-message textarea{
-        width: 350px;
+        width: 340px;
         font-size: 10px;
         height:150px;
     }
@@ -434,7 +434,7 @@ footer{
     .footer p{
         position: absolute;
         top: 42px;
-        left: 90px;
+        left: 77px;
         display: block;
         text-align: center;
         color: white;

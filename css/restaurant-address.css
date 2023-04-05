@@ -263,11 +263,10 @@ footer{
     main{
         max-width: 100%;
         position: relative;
-        padding-bottom: 50px;
     }
     .main-label h1{
         font-size: 30px;
-        margin: auto 140px;
+        margin: auto 120px;
     }
     .label{
         max-width: 100%;
@@ -370,7 +369,7 @@ footer{
     .footer p{
         position: absolute;
         top: 42px;
-        left: 90px;
+        left: 73px;
         display: block;
         text-align: center;
         color: white;

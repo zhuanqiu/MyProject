@@ -297,7 +297,7 @@ footer{
     }
     .main-label h1{
         font-size: 30px;
-        margin: auto 144px;
+        margin: auto 125px;
     }
     .label{
         max-width: 100%;
@@ -379,7 +379,7 @@ footer{
     .logo{
         position: absolute;
         top: 983px;
-        left:338px;
+        left:295px;
     }
     .logo img{
         width: 65px;
@@ -406,7 +406,7 @@ footer{
     .footer p{
         position: absolute;
         top: 42px;
-        left: 90px;
+        left: 77px;
         display: block;
         text-align: center;
         color: white;
