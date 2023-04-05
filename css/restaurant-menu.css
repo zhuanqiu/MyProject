@@ -71,6 +71,9 @@ header{
     display: block;
     width: 100%;
 }
+.menu-icon{
+    opacity: 0;
+}
 
 /* ----------------標籤-------------- */
 main{
