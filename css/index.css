@@ -108,9 +108,11 @@ main{
     background-color: rgba(180, 180, 180, 0.235);
 }
 .block .shift .left{
+    cursor: pointer;
     left: 20px;
 }
 .block .shift .right{
+    cursor: pointer;
     right: 20px;
 }
 .bottom{
@@ -527,6 +529,8 @@ main{
     border: none;
   }
 #btn img{
+    width: 85px;
+    height: 85px;
     position: absolute;
     top: 0;
     left: 0;
