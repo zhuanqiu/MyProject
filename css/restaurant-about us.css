@@ -371,15 +371,17 @@ footer{
         width: 170px;
     }
     #btn{
-       opacity: 0;
+        width: 40px;
+        height: 40px;
     }
     #btn img{
-        display: none;
+        width: 40px;
+        height: 40px;
     }
     .logo{
         position: absolute;
         top: 983px;
-        left:295px;
+        left:335px;
     }
     .logo img{
         width: 65px;
