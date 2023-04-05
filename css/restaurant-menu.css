@@ -481,7 +481,7 @@ footer{
     .logo{
         position: absolute;
         bottom: 0;
-        left: 290px;
+        left: 280px;
         opacity: 0.4;
         filter:sepia(60%);
     }
