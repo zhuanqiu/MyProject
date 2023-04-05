@@ -126,6 +126,7 @@ main{
     text-align: center;
 }
 .food-label h2{
+    font-family: 'Noto Serif TC', serif;
     font-size: 40px;
 }
 button{
