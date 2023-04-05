@@ -260,6 +260,8 @@ button img.active {
     border: none;
   }
 #btn img{
+    width: 85px;
+    height: 85px;
     position: absolute;
     top: 0;
     left: 0;
