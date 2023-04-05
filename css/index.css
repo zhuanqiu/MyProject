@@ -595,6 +595,7 @@ footer{
         width: 50px;    
         font-size: 24px;
         margin: 135px -17px;
+        cursor: pointer;
     }
     .menu{
         position: absolute;
