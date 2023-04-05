@@ -530,6 +530,7 @@ footer{
         margin-bottom: 200px;
     }
     .news ul li{
+        margin-right:0;
         border-bottom: 2px solid #a4001b;
         display: flex;
         align-items: center;
