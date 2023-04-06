@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
         <title>Restaurant-Home Page</title>
     </head>
     <body>
@@ -106,13 +108,13 @@
                 <!--------------------關於阿雪------------------------------------->
                 <div class="story">
                     <ul>
-                        <li>
+                        <li class="left-colum wow animate__animated animate__fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
                             <h1>阿雪的故事</h1>
                         </li>
-                        <li>
+                        <li class="left-colum wow animate__animated animate__fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
                             <p>當初為了分擔家計，以及對於料理的熱情，一路從擺攤做到店面，並傳承到第三代。大碗又美味，成為當地人的早餐首選。從年輕吃到老，愛的就是這純樸的好味道。</p>
                         </li>
-                        <li>
+                        <li class="right-colum wow animate__animated animate__fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                             <img src="picture/about grandma top.jpg" alt="">
                         </li>
                     </ul> 
@@ -270,12 +272,28 @@
                 <button onclick="topFunction()" id="btn" title="Gototop"><img src="picture/to_top.png" ></button>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
         <script>
+            
             $(function(){
+                new WOW().init();
+                $(window).scroll(function() {
+                    var scroll = $(window).scrollTop();
+                        if (scroll >= 100) {
+                            $('header').css('background-color', '#d35f00');
+                            $('.menu a').css('color', 'black');
+                            $('.top a').eq(0).html('<img src="picture/grandma-logo-top-wb_1.png" alt="">');
+                        } else {
+                            $('header').css('background-color', 'rgba(0, 0, 0, 0.700)');
+                            $('.menu a').css('color', 'white');
+                            $('.top a').eq(0).html('<img src="picture/grandma-logo-top-wb.png" alt="">');
+                        }
+                    });
                     $('.menu').show();
                     $('.menu-icon').click(function(){
                         $('.menu').slideToggle();
                     })
+
                 })
             window.onscroll = scrollFunction;
             function scrollFunction() { 

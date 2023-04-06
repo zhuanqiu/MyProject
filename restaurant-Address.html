@@ -105,11 +105,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script>
         $(function(){
-            $('.menu').show();
-            $('.menu-icon').click(function(){
-                $('.menu').slideToggle();
-            })
-        })
+                $(window).scroll(function() {
+                    var scroll = $(window).scrollTop();
+                        if (scroll >= 100) {
+                            $('header').css('background-color', '#d35f00');
+                            $('.menu a').css('color', 'black');
+                            $('.top a').eq(0).html('<img src="picture/grandma-logo-top-wb_1.png" alt="">');
+                        } else {
+                            $('header').css('background-color', 'rgba(0, 0, 0, 0.700)');
+                            $('.menu a').css('color', 'white');
+                            $('.top a').eq(0).html('<img src="picture/grandma-logo-top-wb.png" alt="">');
+                        }
+                    });
+                    $('.menu').show();
+                    $('.menu-icon').click(function(){
+                        $('.menu').slideToggle();
+                    })
+
+                })
     </script>
 </body>
 </html>

@@ -25,13 +25,12 @@ a{
 header{
     margin: 0 auto;
     width: 100%;
-    
+    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     /* 用fixed不會占空間 */
     z-index: 100;
 }
 .top{
-    background-color: rgba(0, 0, 0, 0.700);
     width: 100%;
     height: 80px;
     margin: 0 auto;
@@ -53,11 +52,11 @@ header{
 
 
 .top li a:hover{
-    color: #B39300;
+    color: #d38900;
 }
 
 .menu-icon{
-    opacity: 0;
+    display: none;
 }
 
 /* ----------------關於阿雪-------------- */
@@ -142,13 +141,13 @@ main{
     flex-direction: row;
     justify-content: center;
 }
-.story li h1{
+.story h1{
     text-align: center;
     font-size: 60px;
     writing-mode: vertical-rl;
 }
 
-.story li p{
+.story p{
     font-size: 32px;
     margin: 0 50px;
     line-height: 2;
@@ -156,7 +155,7 @@ main{
     height: 552px; 
     writing-mode: vertical-rl;
 }
-.story li img{
+.story img{
     display: block;
     width:500px; 
     height:500px; 
@@ -570,22 +569,22 @@ footer{
 
 @media screen and (max-width: 414px) {
     body{
-        max-width: 100%;
+        width: 414px;
         margin: 0;
     }
     .wrapper{
-        max-width: 100%;
+        width: 414px;
         margin: 0;
     }
     header{
         margin: 0;
-        max-width: 100%;
+        width: 414px;
         position: relative;
         z-index: 100;
         position: fixed;
     }
     .top{
-        max-width: 100%;
+        width: 414px;
         height:45px
     }
     .top img{
@@ -614,7 +613,7 @@ footer{
         background-color: rgba(0, 0, 0, 1);
         top: 45px;
         left: 0px;
-        width: 100%;
+        width: 414px;
         padding-right: 0;
     }
     .top li{
@@ -646,7 +645,7 @@ footer{
     }
     .menu-icon{
         font-size: 15px;
-        opacity: 1;
+        display: block;
         color: #fff;
         margin-right: 20px;
         margin-top: 10px;
@@ -681,21 +680,21 @@ footer{
         font-size: 12px;
     }
     .story{
-        max-width: 100%;
+        width: 414px;
         margin: auto;
     }
     .story ul{
-        max-width: 100%;
+        width: 414px;
         display: flex;
         flex-direction: column;
     }
-    .story li h1{
+    .story h1{
         font-size: 36px;
         writing-mode: horizontal-tb;
         margin-bottom: 50px;
         margin-top: 50px;
     }
-    .story li p{
+    .story p{
         max-width: 100%;
         height: 419px;
         margin: auto;
@@ -703,7 +702,7 @@ footer{
         margin-bottom: 50px;
         letter-spacing:5px;
     }
-    .story li img{
+    .story img{
         width: 350px;
         height: 380px;
         margin: 0 auto;
