@@ -328,7 +328,7 @@ footer{
         width: auto;
         max-width: 100%;
         font-size: 30px;
-        margin: auto 147px;
+        margin: auto 125px;
     }
     .label{
         max-width: 100%;
@@ -374,8 +374,8 @@ footer{
     }
     .phone-label{
         position: absolute;
-        top: 230px;
-        left: 205px;
+        top: 231px;
+        left: 192px;
     }
     .phone-label label{
         width: 100px;
@@ -397,7 +397,7 @@ footer{
         height: 25px;
     }
     .form-input-email input{
-        width: 340px;
+        width: 325px;
         font-size: 10px;
         height: 25px;
     }
@@ -410,12 +410,12 @@ footer{
         padding-left: 16px;
     }
     .form-input-subtitle input{
-        width: 340px;
+        width: 325px;
         font-size: 10px;
         height: 25px;
     }
     .form-input-message textarea{
-        width: 340px;
+        width: 325px;
         font-size: 10px;
         height:150px;
     }
