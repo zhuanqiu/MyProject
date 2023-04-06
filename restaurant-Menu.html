@@ -333,7 +333,12 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script>
-        $(function(){
+       (function(){
+                if($(window).width >= 414){
+                    new WOW().init();
+                }
+            })();
+            $(function(){             
                 $(window).scroll(function() {
                     var scroll = $(window).scrollTop();
                         if (scroll >= 100) {
@@ -346,9 +351,19 @@
                             $('.top a').eq(0).html('<img src="picture/grandma-logo-top-wb.png" alt="">');
                         }
                     });
-                    $('.menu').show();
                     $('.menu-icon').click(function(){
                         $('.menu').slideToggle();
+                            $('.menu-icon').css({backgroundColor:'#b45100',
+                            borderRadius:'10%',height:'30px',width:'45px',
+                            boxShadow:'1px 1px 1px 1px inset #482000',
+                            paddingLeft:'5px'});                        
+                    })
+                    $('.menu-icon').clickUp(function(){
+                        $('.menu').slideToggle();
+                        $('.menu-icon').css({backgroundColor:'none',
+                            borderRadius:'10%',height:'30px',width:'45px',
+                            boxShadow:'0px 0px 0px 0px',
+                            paddingLeft:'0px'});                        
                     })
 
                 })

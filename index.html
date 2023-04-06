@@ -20,11 +20,11 @@
             <header>
                 <!-----------------------Top Block----------------------------->
                 <div class="top">
-                    <a href="https://zhuanqiu.github.io/MyProject/">
-                        <img src="picture/grandma-logo-top-wb.png" alt="">
+                    <a href="https://zhuanqiu.github.io/MyProject/" class="animate__animated animate__bounce animate__fadeIn" data-wow-duration="0.5s">
+                        <img  src="picture/grandma-logo-top-wb.png" alt="">
                     </a>
                     <div class="menu-icon">Menu</div>
-                    <ul class="menu">
+                    <ul class="menu animate__animated animate__bounce animate__fadeInDown" data-wow-duration="0.5s">
                         <li><a href="https://zhuanqiu.github.io/MyProject/restaurant-News.html">最新消息</a></li>
                         <li><a href="https://zhuanqiu.github.io/MyProject/restaurant-About%20Us.html">關於阿雪</a></li>
                         <li><a href="https://zhuanqiu.github.io/MyProject/restaurant-Menu.html">經典小吃</a></li>
@@ -275,8 +275,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
         <script>
             
-            $(function(){
-                new WOW().init();
+            (function(){
+                if($(window).width >= 414){
+                    new WOW().init();
+                }
+            })();
+            $(function(){             
                 $(window).scroll(function() {
                     var scroll = $(window).scrollTop();
                         if (scroll >= 100) {
@@ -289,9 +293,19 @@
                             $('.top a').eq(0).html('<img src="picture/grandma-logo-top-wb.png" alt="">');
                         }
                     });
-                    $('.menu').show();
                     $('.menu-icon').click(function(){
                         $('.menu').slideToggle();
+                            $('.menu-icon').css({backgroundColor:'#b45100',
+                            borderRadius:'10%',height:'30px',width:'45px',
+                            boxShadow:'1px 1px 1px 1px inset #482000',
+                            paddingLeft:'5px'});                        
+                    })
+                    $('.menu-icon').clickUp(function(){
+                        $('.menu').slideToggle();
+                        $('.menu-icon').css({backgroundColor:'none',
+                            borderRadius:'10%',height:'30px',width:'45px',
+                            boxShadow:'0px 0px 0px 0px',
+                            paddingLeft:'0px'});                        
                     })
 
                 })

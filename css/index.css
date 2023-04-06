@@ -48,6 +48,7 @@ header{
     margin-top: 21px;
     margin-right: 20px;
     font-size: 20px;
+    display: block;
 }
 
 
@@ -577,6 +578,7 @@ footer{
         margin: 0;
     }
     header{
+        background-color: #d35f00;
         margin: 0;
         width: 414px;
         position: relative;
@@ -615,12 +617,19 @@ footer{
         left: 0px;
         width: 414px;
         padding-right: 0;
+        display: none;
+    }
+    .animate__fadeInDown{
+        animation-name:none !important;
     }
     .top li{
         width: 100%;
         margin: 0px 0px;
         line-height: 70px;
         border-bottom: 1px solid #ffffff;
+    }
+    .top li a{
+        color: #fff !important;
     }
     .block{
         max-width: 100%;

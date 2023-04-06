@@ -48,6 +48,7 @@ header{
     margin-top: 21px;
     margin-right: 20px;
     font-size: 20px;
+    display: block;
 }
 
 
@@ -457,8 +458,9 @@ footer{
         margin: 0;
     }
     header{
+        background-color: #d35f00;
         margin: 0;
-        max-width: 100%;
+        width: 414px;
         position: relative;
         z-index: 100;
         position: fixed;
@@ -473,14 +475,21 @@ footer{
         background-color: rgba(0, 0, 0, 1);
         top: 45px;
         left: 0px;
-        width: 100%;
+        width: 414px;
         padding-right: 0;
+        display: none;
+    }
+    .animate__fadeInDown{
+        animation-name:none !important;
     }
     .top li{
         width: 100%;
         margin: 0px 0px;
         line-height: 70px;
         border-bottom: 1px solid #ffffff;
+    }
+    .top li a{
+        color: #fff !important;
     }
     .top img{
         height: 30px;
