@@ -271,7 +271,7 @@ footer{
     header{
         background-color: rgba(0, 0, 0, 0.700);
         margin: 0;
-        width: 414px;
+        max-width: 100%;
         position: relative;
         z-index: 100;
         position: fixed;
@@ -286,7 +286,7 @@ footer{
         background-color: rgba(0, 0, 0, 1);
         top: 45px;
         left: 0px;
-        width: 414px;
+        max-width: 100%;
         padding-right: 0;
         display: none;
     }
@@ -294,7 +294,7 @@ footer{
         animation-name:none !important;
     }
     .top li{
-        width: 100%;
+        max-width: 100%;
         margin: 0px 0px;
         line-height: 70px;
         border-bottom: 1px solid #ffffff;
