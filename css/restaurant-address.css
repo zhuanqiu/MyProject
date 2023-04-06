@@ -221,7 +221,7 @@ footer{
         margin: 0;
     }
     header{
-        background-color: #d35f00;
+        background-color: rgba(0, 0, 0, 0.700);
         margin: 0;
         width: 414px;
         position: relative;
