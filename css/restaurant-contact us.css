@@ -75,6 +75,14 @@ header{
 .menu-icon{
     display: none;
 }
+.menu-icon.-on{
+    background-color:#b45100;
+    border-radius:10%;
+    height:30px;
+    width:45px;                
+    box-shadow: 1px 1px 1px 1px inset #482000;                            
+    padding-left: 5px;
+}
 
 /* ----------------標籤-------------- */
 main{
