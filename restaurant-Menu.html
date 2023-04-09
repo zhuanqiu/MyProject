@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/restaurant-menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Restaurant-Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
@@ -15,11 +17,11 @@
         <header>
             <!-- Top Block -->
             <div class="top">
-                <a href="https://zhuanqiu.github.io/MyProject/">
+                <a href="https://zhuanqiu.github.io/MyProject/" class="animate__animated animate__bounce animate__fadeIn" data-wow-duration="0.5s">
                     <img src="./picture/grandma-logo-top-wb.png" alt="">
                 </a>
                 <div class="menu-icon">Menu</div>
-                <ul class="menu">
+                <ul class="menu animate__animated animate__bounce animate__fadeInDown" data-wow-duration="0.5s">
                     <li><a href="https://zhuanqiu.github.io/MyProject/restaurant-News.html">最新消息</a></li>
                     <li><a href="https://zhuanqiu.github.io/MyProject/restaurant-About%20Us.html">關於阿雪</a></li>
                     <li><a href="https://zhuanqiu.github.io/MyProject/restaurant-Menu.html">經典小吃</a></li>
@@ -332,6 +334,7 @@
         <button onclick="topFunction()" id="btn" title="Gototop"><img src="picture/to_top.png"></button>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
        (function(){
                 if($(window).width >= 414){
