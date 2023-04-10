@@ -164,13 +164,30 @@ main{
     height: 552px; 
     writing-mode: vertical-rl;
 }
-.story img{
-    display: block;
+ .img{
     width:500px; 
-    height:500px; 
+    height:600px; 
     border-radius:50%;
     filter: brightness(80%) sepia(40%);
+    animation-name: grandma; 
+    animation-duration: 10s; 
+    animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.895);
+    animation-iteration-count: infinite;
 }
+@keyframes grandma { 
+     0%{
+        background-image: url('../picture/about-grandma-top_1.jpg');
+      }
+      50% {
+        background-image: url('../picture/about-grandma-top_3.JPG');
+        background-position: center center;
+      }
+      100% {
+        background-image: url('../picture/about-grandma-top_1.jpg');
+        
+      }
+}
+
 /* ----------------美食介紹-------------- */
 .food{
     margin: 0 auto 200px;

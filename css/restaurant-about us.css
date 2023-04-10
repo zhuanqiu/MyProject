@@ -121,11 +121,8 @@ main{
     content: '/  ';
     font-size: 32px;
 }
-.gran{
-    padding-top: 50px;
-}
 .gran ul{
-    margin: 100px auto;
+    margin: 55px auto;
     width: 900px;
     display: flex;
     align-items: center;
