@@ -382,7 +382,7 @@ main{
 /* -----news1------- */
 .news1 img{
     width: 240px;
-    height: 160px;
+    height: 180px;
     display: block;
     margin-bottom: 10px;
 }
@@ -411,7 +411,7 @@ main{
 /* -----news2------- */
 .news2 img{
     width: 240px;
-    height: 160px;
+    height: 180px;
     display: block;
     margin-bottom: 10px;
 }
@@ -440,8 +440,8 @@ main{
 }
 /* -----news3------- */
 .news3 img{
-    width: 240px;
-    height: 160px;
+    width: 220px;
+    height: 200px;
     display: block;
     margin-bottom: 10px;
 }
