@@ -28,7 +28,7 @@ header{
     background-color: rgba(0, 0, 0, 0.700);
     position: fixed;
     /* 用fixed不會占空間 */
-    z-index: 100;
+    z-index: 10000;
 }
 .top{
     width: 100%;
@@ -234,7 +234,7 @@ footer{
         margin: 0;
         max-width: 100%;
         position: relative;
-        z-index: 100;
+        z-index: 10000;
         position: fixed;
     }
     .top{
@@ -372,7 +372,7 @@ footer{
     }
     .logo{
         position: absolute;
-        top: 812px;
+        top: 796px;
         left: 0;
     }
     .logo img{
