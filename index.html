@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Restaurant-Home Page</title>
     </head>
     <body>
@@ -105,18 +106,18 @@
                     
                 </script>
                 <!--------------------關於阿雪------------------------------------->
-                <div class="story">
+                <div class="story" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <ul>
-                        <li class="left-colum wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
+                        <li>
                             <h1>阿雪的故事</h1>
                         </li>
-                        <li class="left-colum wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
+                        <li>
                             <p>當初為了分擔家計，以及對於料理的熱情，一路從擺攤做到店面，並傳承到第三代。大碗又美味，成為當地人的早餐首選。從年輕吃到老，愛的就是這純樸的好味道。</p>
                         </li>
-                        <li class="right-colum wow animate__animated animate__fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
+                        <li>
                             <div class="img"></div>
                         </li>
-                    </ul> 
+                    </ul>  
                 </div>
                 <!-- ------------------------美食介紹---------------------------->
                 <div class="food">
@@ -162,7 +163,7 @@
                     </ul>                    
                 </div>
                 <!----------------------最新消息-------------------------------->
-                <div class="news">
+                <div class="news"  data-aos="zoom-in">
                     <ul>
                         <h1>
                             <span>最新消息</span>
@@ -272,6 +273,10 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+            AOS.init();
+          </script>
         <script>
             
             (function(){

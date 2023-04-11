@@ -157,10 +157,11 @@ button{
 }
 button img:hover{
     outline: 2px solid white;
+    transition: all .5s ease-in-out;
     box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.700);
 }
 button img.active {
-    box-shadow: inset 0px 30px rgba(0, 0, 0, 0.700);;
+    box-shadow: inset 0px 30px rgba(0, 0, 0, 0.700);
   }
   .food1 {
     display: none;
@@ -229,7 +230,7 @@ button img.active {
 }
 .dish1 li h1{
     color: #583F00;
-    font-size: 40px;
+    font-size: 35px;
 }
 .dish1 li p{
     text-align: right;
@@ -244,8 +245,8 @@ button img.active {
     margin-left: 130px;
 }
 .dish1 img:hover{
-    transform: scale(3,3);
-    transition: 1s;
+    transform: scale(2.25);
+    transition: 1.2s;
 }
 /* ----------------logo背景-------------- */
 .logo {
