@@ -253,7 +253,7 @@ footer{
         width: auto;
         max-width: 100%;
         font-size: 30px;
-        margin: auto 125px;
+        margin-left: 50px;
     }
     .label ul{
         display: flex;
