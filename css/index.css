@@ -627,6 +627,14 @@ footer{
     .animate__fadeInDown{
         animation-name:none !important;
     }
+    header{
+        background-color: rgb(136 63 0 / 70%);
+        margin: 0;
+        max-width: 100%;
+        position: relative;
+        z-index: 100;
+        position: fixed;
+    }
     .top li{
         width: 100%;
         margin: 0px 0px;
