@@ -79,6 +79,23 @@ header{
 .menu-icon{
     display: none;
 }
+.menu-icon span{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    display: block;
+    position: fixed;
+    right: 29px;
+}
+.a1{
+    top: 25px;
+}
+.a2{
+    top: 35px;
+}
+.a3{
+    top: 45px;
+}
 .menu-icon.-on{
     background-color:#b45100;
     border-radius:10%;

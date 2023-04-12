@@ -63,13 +63,30 @@ header{
 .menu-icon{
     display: none;
 }
+.menu-icon span{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    display: block;
+    position: fixed;
+    right: 29px;
+}
+.a1{
+    top: 25px;
+}
+.a2{
+    top: 35px;
+}
+.a3{
+    top: 45px;
+}
+
 .menu-icon.-on{
     background-color:#b45100;
     border-radius:10%;
-    height:30px;
-    width:45px;                
-    box-shadow: 1px 1px 1px 1px inset #482000;                            
-    padding-left: 5px;
+    height: 50px;
+    width: 49px;             
+    box-shadow: 1px 1px 1px 1px inset #482000;                   
 }
 
 
@@ -638,6 +655,13 @@ footer{
         margin: 135px -17px;
         cursor: pointer;
     }
+    .menu-icon{
+        font-size: 36px;
+        display: block;
+        color: #fff;
+        margin-right: 20px;
+        margin-top: 11px;
+    }
     .menu{
         position: absolute;
         text-align: center;
@@ -680,15 +704,7 @@ footer{
         flex-shrink: 0;
         object-fit: cover;
         display: block;
-    }
-    .menu-icon{
-        font-size: 15px;
-        display: block;
-        color: #fff;
-        margin-right: 20px;
-        margin-top: 10px;
-    }
-    
+    }    
     main{
         max-width: 100%;
         position: relative;

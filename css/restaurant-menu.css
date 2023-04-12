@@ -78,13 +78,29 @@ header{
 .menu-icon{
     display: none;
 }
+.menu-icon span{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    display: block;
+    position: fixed;
+    right: 29px;
+}
+.a1{
+    top: 25px;
+}
+.a2{
+    top: 35px;
+}
+.a3{
+    top: 45px;
+}
 .menu-icon.-on{
-    background-color:#b45100;
-    border-radius:10%;
-    height:30px;
-    width:45px;                
-    box-shadow: 1px 1px 1px 1px inset #482000;                            
-    padding-left: 5px;
+    background-color: #b45100;
+    border-radius: 10%;
+    height: 53px;
+    width: 54px;
+    box-shadow: 1px 1px 1px 1px inset #482000;
 }
 /* ----------------標籤-------------- */
 main{
@@ -384,6 +400,10 @@ footer{
         height: 80px;
         margin-top: 1px;
     }
+    .top i{
+        font-size: 83px;
+        display: block;
+    }
     .block{
         max-width: 100%;
         height: 100%;
@@ -406,13 +426,12 @@ footer{
         display: block;
     }
     .menu-icon{
-        font-size: 15px;
+        font-size: 36px;
         display: block;
         color: #fff;
         margin-right: 20px;
-        margin-top: 30px;
+        margin-top: 11px;
     }
-    
     main{
         max-width: 100%;
         position: relative;
