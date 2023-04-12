@@ -51,9 +51,9 @@ header{
     display: block;
 }
 
-
-.top li a:hover{
-    color: #B39300;
+.top li a{
+    display: block;
+    height: 80px;
 }
 
 .block img{
