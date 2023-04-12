@@ -25,7 +25,7 @@ a{
 header{
     margin: 0 auto;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(136 63 0 / 70%);
     position: fixed;
     /* 用fixed不會占空間 */
     z-index: 100;
@@ -607,22 +607,21 @@ footer{
         width: 414px;
         margin: 0;
     }
-    header{
-        background-color: rgba(0, 0, 0, 0.700);
-        margin: 0;
-        width: 414px;
-        position: relative;
-        z-index: 100;
-        position: fixed;
+    .animate__fadeInDown{
+        animation-name:none !important;
     }
-    .top{
-        width: 414px;
-        height:45px
+    .top li{
+        width: 100%;
+        margin: 0px 0px;
+        line-height: 70px;
+        border-bottom: 1px solid #ffffff;
+    }
+    .top li a{
+        color: #fff !important;
     }
     .top img{
-        height: 30px;
-        margin-top: 7px;
-        margin-left: 10px;
+        height: 80px;
+        margin-top: 1px;
     }
     .bottom{
         position: absolute;

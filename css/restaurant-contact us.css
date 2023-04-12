@@ -25,7 +25,7 @@ a{
 header{
     margin: 0 auto;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.700);
+    background-color: rgb(136 63 0 / 70%);
     position: fixed;
     /* 用fixed不會占空間 */
     z-index: 100;
@@ -280,28 +280,6 @@ footer{
         max-width: 100%;
         margin: 0;
     }
-    header{
-        background-color: rgba(0, 0, 0, 0.700);
-        margin: 0;
-        max-width: 100%;
-        position: relative;
-        z-index: 100;
-        position: fixed;
-    }
-    .top{
-        max-width: 100%;
-        height:45px
-    }
-    .menu{
-        position: absolute;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 1);
-        top: 45px;
-        left: 0px;
-        max-width: 100%;
-        padding-right: 0;
-        display: none;
-    }
     .animate__fadeInDown{
         animation-name:none !important;
     }
@@ -315,9 +293,8 @@ footer{
         color: #fff !important;
     }
     .top img{
-        height: 30px;
-        margin-top: 7px;
-        margin-left: 10px;
+        height: 80px;
+        margin-top: 1px;
     }
     .block img{
         margin: 0;
@@ -328,7 +305,7 @@ footer{
         display: block;
         color: #fff;
         margin-right: 20px;
-        margin-top: 10px;
+        margin-top: 30px;
     }
     
     main{
