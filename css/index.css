@@ -51,8 +51,12 @@ header{
     display: block;
 }
 
+.top li a{
+    display: block;
+    height: 80px;
+}
 
-.top li a:hover{
+.top li :hover{
     color: #d38900;
 }
 
@@ -67,6 +71,7 @@ header{
     box-shadow: 1px 1px 1px 1px inset #482000;                            
     padding-left: 5px;
 }
+
 
 /* ----------------關於阿雪-------------- */
 main{
