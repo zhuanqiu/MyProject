@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #map {
+            width: 800px;
+          height: 600px;
+          margin: auto;
+        }
+
+      </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBezvDMAg7bmTjuHoTKE8sMFLGTHdfGXQw&callback=initMap"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+    <script>
+     function initMap() {
+ // The location of Uluru
+  const university = { lat: 25.017564089493487, lng: 121.53978398110249 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 15,
+    center: university,
+  });
+  const img = './picture/placeholder.png'
+  // The marker, positioned at Uluru
+  for(let i =0; i < locations.length; i++){
+    const marker = new google.maps.Marker({
+    position: locations[i],
+    map: map,
+    title:"地點" + (i+1),
+    icon : img
+      });
+      const infoWindow = new google.maps.InfoWindow({
+    content: "地點說明" + (i+1),
+    ariaLabel: "地點",
+  });
+  marker.addListener("click", () => {
+      infoWindow.open( {
+      anchor: marker,
+      map,
+    });
+    });
+  }
+    }
+    const locations = [
+      { lat: 25.020558443445342, lng: 121.53766513490926 },
+      { lat: 25.019037799181593, lng: 121.53666325530986 },
+      { lat: 25.018408637458432, lng: 121.54017200693411 },
+      { lat: 25.019154009639404, lng: 121.5402391541195 },
+      { lat: 25.01996022343424,  lng: 121.54087705238062 },
+      { lat: 25.020558443445342, lng: 121.53766513490926 },
+      { lat: 25.019579934568092, lng: 121.54158209782715 },
+      { lat: 25.017549172081292, lng: 121.54050774286104 },
+      { lat: 25.01783059061065,  lng: 121.53830867253977 },
+      { lat: 25.018066373206164, lng: 121.54262287920056 },
+      { lat: 25.019077951460932, lng: 121.54277396036767 },
+      { lat: 25.01929091424193,  lng: 121.5435377596014 },
+      { lat: 25.02066406227541,  lng: 121.54066487580423 },
+      { lat: 25.020641245107473, lng: 121.54065648240605 },
+      { lat: 25.019918699262963, lng: 121.53837347810304 },
+      { lat: 25.02089223372137,  lng: 121.54241070262415 },
+      { lat: 25.017089320899352, lng: 121.53706410800113 },
+      { lat: 25.015733068281133, lng: 121.53873986703698 },
+      { lat: 25.016503909216574, lng: 121.5368056724951 },
+      { lat: 25.01654061580707,  lng: 121.53524616485404 },
+    ];
+     // 載入地圖
+     initMap();
+    </script>
+</body>
+</html>
