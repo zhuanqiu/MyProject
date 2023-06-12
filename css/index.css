@@ -675,6 +675,14 @@ footer{
         margin-right: 10px;
         margin-top: 7px;
     }
+    .menu-icon span{
+        width: 30px;
+        height: 5px;
+        background-color: black;
+        display: block;
+        position: fixed;
+        right: 19px;
+    }
     .menu{
         position: absolute;
         text-align: center;
