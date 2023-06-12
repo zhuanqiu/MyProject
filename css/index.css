@@ -162,6 +162,10 @@ main{
 .bottom .inctr:hover{
     background-color: rgba(157, 126, 1, 0.71);
 }
+
+.bottom .inctr.active {
+    background-color: #c85000;
+}
 /* --------------故事------------------ */
 .story{
     margin: 80px auto;
