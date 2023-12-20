@@ -149,7 +149,6 @@ main{
     width: 100%;
     bottom: 50px;
     display: flex;
-    margin-bottom: 10px;
     gap: 10px;
     justify-content: center;
 }
