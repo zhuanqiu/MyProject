@@ -68,90 +68,91 @@
             </header>
             <main>
                 <div class="block">
-                    <div class="container">
-                        <img src="picture/TOP-PIC.jpg">
-                        <img src="picture/white-noodle-thick-soup.jpg">
-                        <img src="picture/TOP-PIC_TOGE.jpg">
-                    </div>
-                    <div class="shift">
-                        <button class="btn left" onclick="leftshift()">&lt;</button>
-                        <button class="btn right" onclick="rightshift()">&gt;</button>
-                    </div>
-                    <div class="bottom">
-                        <button class="inctr" onclick="setIndex(0)"></button>
-                        <button class="inctr" onclick="setIndex(1)"></button>
-                        <button class="inctr" onclick="setIndex(2)"></button>
-                    </div>
-                </div>
-                <script>
-                    let index = 0;
-                
-                    function refresh() {
-                        if (index < 0) {
-                            index = 1;
-                        } else if (index > 2) {
-                            index = 0;
-                        }
-                        let block_el = document.querySelector('.block');
-                        let width = getComputedStyle(block_el).width;
-                        width = Number(width.slice(0, -2));
-                        block_el.querySelector('.container').style.left =
-                            index * width * -1 + "px";
-                    }
-                
-                    function createAuto() {
-                        return setInterval(() => {
-                            index++;
-                            refresh();
-                        }, 30000);
-                    }
-                
-                    let autoTimer = createAuto();
-                
-                    let refreshWrapper = (func) => {
-                        return function (...arg) {
-                            let result = func(...arg);
-                            refresh();
-                
-                            setActiveButton(index); // 更新inctr按钮样式
-                
-                            clearInterval(autoTimer);
-                            autoTimer = createAuto();
-                            return result;
-                        };
-                    };
-                
-                    let leftshift = refreshWrapper(() => {
-                        index--;
-                        refresh();
-                        setActiveButton(index); // 更新inctr按钮样式
-                    });
-                
-                    let rightshift = refreshWrapper(() => {
-                        index++;
-                        refresh();
-                    });
-                
-                    let setIndex = refreshWrapper((idx) => {
-                        index = idx;
-                        refresh();
-                        setActiveButton(index);
-                    });
-                
-                    function setActiveButton(index) {
-                        let buttons = document.querySelectorAll('.inctr');
-                        buttons.forEach((button, buttonIndex) => {
-                            if (buttonIndex === index) {
-                                button.classList.add('active');
-                            } else {
-                                button.classList.remove('active');
-                            }
-                        });
-                    }
-                
-                    refresh();
-                    setActiveButton(index);
-                </script>
+        <div class="container">
+            <img src="picture/TOP-PIC.jpg">
+            <img src="picture/white-noodle-thick-soup.jpg">
+            <img src="picture/TOP-PIC_TOGE.jpg">
+        </div>
+        <div class="shift">
+            <button class="btn left" onclick="leftshift()">&lt;</button>
+            <button class="btn right" onclick="rightshift()">&gt;</button>
+        </div>
+        <div class="bottom">
+            <button class="inctr" onclick="setIndex(0)"></button>
+            <button class="inctr" onclick="setIndex(1)"></button>
+            <button class="inctr" onclick="setIndex(2)"></button>
+        </div>
+    </div>
+
+    <script>
+        let index = 0;
+
+        function refresh() {
+            if (index < 0) {
+                index = 2;
+            } else if (index > 2) {
+                index = 0;
+            }
+            let block_el = document.querySelector('.block');
+            let width = getComputedStyle(block_el).width;
+            width = Number(width.slice(0, -2));
+            block_el.querySelector('.container').style.left =
+                index * width * -1 + "px";
+        }
+
+        function createAuto() {
+            return setInterval(() => {
+                index++;
+                refresh();
+            }, 30000);
+        }
+
+        let autoTimer = createAuto();
+
+        let refreshWrapper = (func) => {
+            return function (...arg) {
+                let result = func(...arg);
+                refresh();
+
+                setActiveButton(index);
+
+                clearInterval(autoTimer);
+                autoTimer = createAuto();
+                return result;
+            };
+        };
+
+        let leftshift = refreshWrapper(() => {
+            index++;
+            refresh();
+            setActiveButton(index);
+        });
+
+        let rightshift = refreshWrapper(() => {
+            index--;
+            refresh();
+        });
+
+        let setIndex = refreshWrapper((idx) => {
+            index = idx;
+            refresh();
+            setActiveButton(index);
+        });
+
+        function setActiveButton(index) {
+            let buttons = document.querySelectorAll('.inctr');
+            buttons.forEach((button, buttonIndex) => {
+                if (buttonIndex === index) {
+                    button.classList.add('active');
+                } else {
+                    button.classList.remove('active');
+                }
+            });
+        }
+
+        refresh();
+        setActiveButton(index);
+    </script>
                 <!--------------------關於阿雪------------------------------------->
                 <div class="story" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <ul>
