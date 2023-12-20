@@ -123,16 +123,15 @@
         };
 
         let leftshift = refreshWrapper(() => {
-            index++;
-            refresh();
-            setActiveButton(index);
+        index--;  // 將 index 減少1
+        refresh();
+        setActiveButton(index);
         });
 
         let rightshift = refreshWrapper(() => {
-            index--;
+            index++;  // 將 index 增加1
             refresh();
         });
-
         let setIndex = refreshWrapper((idx) => {
             index = idx;
             refresh();
